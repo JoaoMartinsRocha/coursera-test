@@ -1,1 +1,80 @@
 
+
+#header-nav {
+  background-color: black;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1{
+  font-family: 'Arial', sans-serif;
+  color: purple;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.75;  
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#collapsable-nav{
+	background-color: grey;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: purple;
+}
+#nav-list a:hover {
+  background: black;
+}
+
+#nav-list hr {
+    width:80%;
+    margin:0 auto;
+    background-color: darkblue;
+    height: 1px;
+    border: none;
+
+}
+
+h2{
+
+ font-family: 'Arial', sans-serif;
+ color: purple;
+ margin-top: 30px;
+ margin-bottom: 30px;
+
+}
+
+div .row{
+	width: 100%;
+	background-color: grey;
+	margin-right: auto;
+	margin-left: auto;
+	height: 1000px;
+}
+
+.row div{
+	color: purple;
+	padding-bottom: 20px;
+}
+.row p{
+	color: purple;
+}
+
+@media (min-width: 768px){
+	#collapsable-nav{
+	background-color: black;
+}
+}
